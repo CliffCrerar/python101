@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Web Scraping</title>
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./node_modules/skeleton-css/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="./node_modules/skeleton-css/css/skeleton.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.6/brython.min.js"></script>
+    <!-- <script type="text/javascript" src="./lib/python3.7/site-packages/brython/data/brython.js"></script>
+    <script type="text/javascript" src="./lib/python3.7/site-packages/brython/data/brython_stdlib.js"></script> -->
+    <style>
+        :root{
+            --seciton-border: 1px solid rgba(0, 0, 0, 0.103);
+        }
+        html,body{
+            min-width: 100vw;
+            min-height: 100vh;
+            height: auto;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        header{
+            padding-bottom: 20px;
+            border-bottom: var(--seciton-border)
+        }
+        header h1{
+            margin: 0;
+        }
+        main{
+            flex: 1;
+        }
+        footer{
+            
+            padding: 20px 0;
+            border-top: var(--seciton-border)
+        }
+        .text-center{
+            text-align: center;
+        }
+        .text-left{
+            text-align: left;
+        }
+        .text-right{
+            text-align: right;
+        }
+        .text-justify{
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body onload="brython(1)">
+    
+    <script type="text/python3" src="./index.py"></script>
+</body>
+</html>

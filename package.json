@@ -1,0 +1,28 @@
+{
+  "name": "web-scraping-with-python",
+  "version": "1.0.0",
+  "description": "web scraping excercise with python",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "python3 -m http.server 8000"
+  },
+  "author": "Cliff Crerar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "skeleton-css": "^2.0.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CliffCrerar/python101.git"
+  },
+  "keywords": [
+    "python"
+  ],
+  "bugs": {
+    "url": "https://github.com/CliffCrerar/python101/issues"
+  },
+  "homepage": "https://github.com/CliffCrerar/python101#readme"
+}
