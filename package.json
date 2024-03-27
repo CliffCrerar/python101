@@ -10,7 +10,7 @@
   "author": "Cliff Crerar",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.3",
+    "express": "^4.19.2",
     "skeleton-css": "^2.0.4"
   },
   "devDependencies": {},
